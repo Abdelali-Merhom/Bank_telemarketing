@@ -5,7 +5,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-red)
 ![SMOTE](https://img.shields.io/badge/SMOTE-Rééquilibrage-purple)
 ![Statut](https://img.shields.io/badge/Statut-Complet-brightgreen)
-![ROC-AUC](https://img.shields.io/badge/Meilleur%20ROC--AUC-0.90-success)
+![ROC-AUC](https://img.shields.io/badge/Meilleur%20ROC--AUC-0.88-success)
 
 ---
 
