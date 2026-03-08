@@ -1,6 +1,6 @@
 # Télémarketing Bancaire — Scoring de Souscription Client à un compte de dépôt à long terme:
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-red)
 ![SMOTE](https://img.shields.io/badge/SMOTE-Rééquilibrage-purple)
