@@ -89,10 +89,10 @@ Données brutes (41 187 contacts)
 | Modèle | Accuracy | ROC-AUC |
 |---|---|---|
 | Régression Logistique | 0,84 | 0,86 |
-| Random Forest | **0,88** | **0,90** ✅ |
+| Random Forest | **0,88** | **0,90** |
 | XGBoost | 0,87 | 0,89 |
 
-### 🏆 Meilleur modèle : Random Forest + Importance des variables
+### Meilleur modèle : Random Forest + Importance des variables
 
 **ROC-AUC = 0,90** — le modèle distingue efficacement les souscripteurs potentiels des non-souscripteurs dans 90 % des cas, contre 50 % pour une prédiction aléatoire.
 
@@ -100,19 +100,18 @@ Données brutes (41 187 contacts)
 
 |  | Prédit : Non | Prédit : Oui |
 |---|---|---|
-| **Réel : Non** | 3 900 ✅ | 100 ❌ |
-| **Réel : Oui** | 250 ❌ | 750 ✅ |
+| **Réel : Non** | 3 900 | 100 |
+| **Réel : Oui** | 250 | 750  |
 
 **Lecture métier :**
 - **750 vrais positifs** → clients souscripteurs correctement identifiés
 - **100 faux positifs** → appels inutiles évités par le modèle
 - **250 faux négatifs** → clients potentiels manqués (acceptable sur ce volume)
 
-> 💡 **Impact opérationnel :** En ne ciblant que les clients avec un score élevé, la banque réduit le volume d'appels inutiles tout en maximisant son taux de conversion.
+**Impact opérationnel :** En ne ciblant que les clients avec un score élevé, la banque réduit le volume d'appels inutiles tout en maximisant son taux de conversion.
 
----
 
-## Insights Clés — Analyse Exploratoire
+## Résultats d'analyse:
 
 ### Profil du client le plus susceptible de souscrire
 
@@ -135,7 +134,7 @@ Données brutes (41 187 contacts)
 
 ---
 
-## Points Techniques Notables
+## Points Techniques:
 
 **Détection automatique des colonnes catégorielles**
 L'encodage utilise `select_dtypes(include=["object", "category"])` pour identifier automatiquement les colonnes à encoder — le pipeline est robuste aux évolutions du dataset.
