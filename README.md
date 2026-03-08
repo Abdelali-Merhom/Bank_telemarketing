@@ -23,7 +23,7 @@ L'approche retenue repose sur un pipeline Machine Learning complet, depuis l'ana
 ## Approche Technique:
 
 ### Pipeline complet
-<center>
+
 ```
 Données brutes (41 187 contacts)
         │
@@ -73,7 +73,7 @@ Données brutes (41 187 contacts)
 │  Évaluation              │  → ROC-AUC, Accuracy, Matrices de confusion,
 └──────────────────────────┘    Courbes ROC comparatives
 ```
-</center>
+
 ## Résultats:
 
 ### Comparaison des modèles — Sélection par ACP
