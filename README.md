@@ -197,7 +197,7 @@ jupyter notebook Bank_customer_Deposit.ipynb
 
 # Auteur
 
-**Abdelali MERHOM** — Data Scientist spécialisé en scoring, détection d'anomalies et données réglementées
+**Abdelali MERHOM** — Data Scientist 
 [LinkedIn](https://www.linkedin.com/in/Abdelali-merhom/) • [GitHub](https://github.com/Abdelali-Merhom)
 
 ---
